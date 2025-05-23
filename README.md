@@ -13,41 +13,60 @@ Having recently completed my Master's degree in Computer Vision, Robotics, and M
 
 ---
 
-## 🧠 Skills & Technologies
-
-- **Languages:** Python, MATLAB, C++, C#, Prolog  
-- **ML/DL Tools:** PyTorch, TensorFlow, Keras, Scikit-learn  
-- **CV/AI:** 3D Reconstruction, Image Segmentation, Pose Estimation, Neural Radiance Fields (NeRF)  
-- **Robotics:** Arduino, ROS/ROS2, Circuit Design, Wireless Control  
-- **Other:** Git, SQL, CUDA, OpenCV, Streamlit, Agile Development
-
----
-
 ## 💼 Projects
 
-### 🔷 [KvasirSeg-UNet: Gastrointestinal Image Segmentation](https://github.com/GaurangTari4/KvasirSeg-Unet)
-- Developed a U-Net-based segmentation model using the Kvasir-SEG dataset.
-- Applied data augmentation, optimization techniques, and visualized results with OpenCV.
-- Achieved high Dice Score and IoU for polyp segmentation.
+### 🔷 U-Net for Medical Image Segmentation
 
-**Technologies:** PyTorch, U-Net, OpenCV, Deep Learning, Medical Imaging
+Developed a custom implementation of the **U-Net architecture** to perform precise **semantic segmentation** of gastrointestinal polyps using the **Kvasir-SEG** dataset.
+
+**Key Highlights:**
+- Designed a deep learning model to segment medical images with high sensitivity and precision.
+- Applied data augmentation to enhance the robustness of the training pipeline.
+- Used a combined **BCEWithLogitsLoss + Dice Loss** function to optimize performance on imbalanced datasets.
+- Achieved a **Dice Score of ~0.83** and **IoU of ~0.74**.
+- Visualized results with **OpenCV** and **Matplotlib** for model validation and presentation.
+
+**Skills:** PyTorch · Fine Tuning · Python · Hyperparameter Tuning · Image Processing · Deep Learning · Git
+
+📎 [GitHub Repo](https://github.com/GaurangTari4/KvasirSeg-Unet)
 
 ---
 
 ### 🔷 NeRF-Based Camera Pose Estimation
-- Implemented a Neural Radiance Fields (NeRF) pipeline for accurate camera pose estimation.
-- Used NeRF Studio and Agisoft Metashape for 3D modeling and image preprocessing.
-- Enhanced novel view synthesis and 3D scene reconstruction accuracy.
 
-**Tools:** NeRF Studio, Deep Learning Frameworks, 3D Modeling
+Implemented advanced **Neural Radiance Fields (NeRF)** techniques for accurate camera pose estimation, improving performance in **3D scene reconstruction** and **AR/robotics applications**.
+
+**Key Highlights:**
+- Enhanced the Tiny NeRF framework using **PyTorch**, **TensorFlow**, and **CUDA** for better real-world scalability.
+- Refined camera calibration processes with **OpenCV** to ensure high precision.
+- Integrated CNNs to improve scene understanding and model convergence.
+- Delivered enhanced novel view synthesis from minimal image input.
+
+**Skills:** PyTorch · TensorFlow · CUDA · Python · OpenCV · Keras · Camera Calibration · CNNs · 3D Vision
 
 ---
 
 ### 🔷 6DOF Robotic Arm
-- Built a six degrees of freedom robotic arm controlled wirelessly via Bluetooth and Arduino.
-- Programmed precise pick-and-place functionality and integrated real-time feedback control.
 
-**Technologies:** Arduino, C++, Embedded Systems, Robotics, Servo Control
+Designed and built a **six degrees of freedom (6DoF) robotic arm** for automation and manipulation tasks in industrial and hazardous settings.
+
+**Key Highlights:**
+- Constructed using **Arduino Uno** and controlled via **Bluetooth wireless communication**.
+- Programmed using **C/C++** for responsive and precise pick-and-place operations.
+- Incorporated feedback mechanisms for better positional accuracy.
+- Emphasized versatility for deployment in healthcare, manufacturing, and field robotics.
+
+**Skills:** Arduino · C++ · Real-time Systems · Wireless Communication · Robotics · Automation
+
+---
+
+## 🧠 Skills & Technologies
+
+- **Languages:** Python, MATLAB, C++, C#, Prolog  
+- **ML/DL Tools:** PyTorch, TensorFlow, Keras, Scikit-learn  
+- **CV/AI:** 3D Reconstruction, Semantic Segmentation, Pose Estimation, Neural Radiance Fields (NeRF)  
+- **Robotics:** Arduino, ROS/ROS2, Embedded Systems, Circuit Design  
+- **Other:** Git, SQL, CUDA, OpenCV, Streamlit
 
 ---
 
@@ -57,9 +76,9 @@ Having recently completed my Master's degree in Computer Vision, Robotics, and M
 - NLP with TensorFlow – Coursera  
 - CNNs in TensorFlow – Coursera  
 - Sequences and Time Series – Coursera  
-- Intro to Java – Coursera  
+- Intro to Java – Coursera
 
-[View Certificates](https://coursera.org/share/ab30e5aa01a7f81a068d1b9d280bce62)
+[🔗 View Certificates](https://coursera.org/share/ab30e5aa01a7f81a068d1b9d280bce62)
 
 ---
 
