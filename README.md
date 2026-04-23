@@ -15,6 +15,24 @@ Having recently completed my Master's degree in Computer Vision, Robotics, and M
 
 ## 💼 Projects
 
+### 🚀 PoseNeRF
+
+PoseNeRF is an end-to-end implementation of a **hierarchical Neural Radiance Field (NeRF)** framework for **joint scene representation and camera pose estimation**.
+
+Unlike traditional NeRF pipelines that rely on known camera poses, this project tackles a more realistic problem: **recovering camera poses directly from images while simultaneously learning the scene representation**.
+
+**Key Highlights:**
+- Developed a **coarse-to-fine hierarchical NeRF pipeline** for robust scene modeling.
+- Estimated **camera poses for unseen views** using the learned radiance field as a geometric prior.
+- Implemented **iterative pose and rendering refinement** for improved accuracy.
+- Transformed an experimental notebook workflow into a **fully modular, script-driven pipeline**.
+- Enabled **reproducible experiments**, scalable training, and flexible evaluation stages.
+- Designed with clear separation between **training, pose estimation, evaluation, and refinement**.
+
+**Skills:** PyTorch · 3D Vision · NeRF · Pose Estimation · Computer Vision · Optimization · Python · Deep Learning
+
+---
+
 ### 🔷 U-Net for Medical Image Segmentation
 
 Developed a custom implementation of the **U-Net architecture** to perform precise **semantic segmentation** of gastrointestinal polyps using the **Kvasir-SEG** dataset.
