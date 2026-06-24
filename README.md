@@ -1,123 +1,187 @@
 # 👋 Hi, I'm Gaurang Tari
 
-🚀 Machine Learning Engineer | MSc in Computer Vision, Robotics & Machine Learning  
-📍 Based in Surrey, UK | Open to relocation | Passionate about AI for real-world impact
+🚀 Machine Learning Engineer \| Computer Vision \| Deep Learning \| AI
+Systems\
+📍 Based in India \| Actively looking for opportunities in AI/ML
+Engineering
 
----
+------------------------------------------------------------------------
 
 ## 👨‍💻 About Me
 
-I am a Machine Learning Engineer with hands-on experience building and deploying deep learning models for computer vision, image segmentation, and 3D reconstruction. I specialize in applying AI to fields like medical imaging, autonomous robotics, and creative visual technologies.
+I am a Machine Learning Engineer passionate about building practical AI
+systems that solve real-world problems.
 
-Having recently completed my Master's degree in Computer Vision, Robotics, and Machine Learning from the University of Surrey, I’ve led and contributed to impactful projects involving NeRF-based 3D modeling, semantic segmentation, and robotics systems. I enjoy solving complex problems and translating cutting-edge research into scalable, real-world solutions.
+My work focuses on **Computer Vision, Deep Learning, Generative AI, 3D
+Vision, and AI-powered automation**. I enjoy taking ideas from research
+papers and transforming them into complete working systems --- from
+model development and experimentation to deployment-ready applications.
 
----
+I completed my **MSc in Computer Vision, Robotics and Machine Learning
+from the University of Surrey**, where I worked on advanced areas
+including **Neural Radiance Fields (NeRF), image segmentation, robotics,
+and intelligent systems**.
 
-## 💼 Projects
+Currently, I am exploring opportunities where I can contribute my skills
+in: - Machine Learning Engineering - Computer Vision - AI Agents - Deep
+Learning Applications - Applied AI Research
 
-### 🚀 PoseNeRF
+------------------------------------------------------------------------
 
-PoseNeRF is an end-to-end implementation of a **hierarchical Neural Radiance Field (NeRF)** framework for **joint scene representation and camera pose estimation**.
+# 🚀 Featured Projects
 
-Unlike traditional NeRF pipelines that rely on known camera poses, this project tackles a more realistic problem: **recovering camera poses directly from images while simultaneously learning the scene representation**.
+## 🔷 ForgeSight AD --- Industrial Anomaly Detection Studio
 
-**Key Highlights:**
-- Developed a **coarse-to-fine hierarchical NeRF pipeline** for robust scene modeling.
-- Estimated **camera poses for unseen views** using the learned radiance field as a geometric prior.
-- Implemented **iterative pose and rendering refinement** for improved accuracy.
-- Transformed an experimental notebook workflow into a **fully modular, script-driven pipeline**.
-- Enabled **reproducible experiments**, scalable training, and flexible evaluation stages.
-- Designed with clear separation between **training, pose estimation, evaluation, and refinement**.
+AI-powered industrial inspection system using deep learning for
+automated defect detection.
 
-**Skills:** PyTorch · 3D Vision · NeRF · Pose Estimation · Computer Vision · Optimization · Python · Deep Learning
+ForgeSight AD is a flexible anomaly detection framework designed for
+industrial computer vision applications. It allows users to select
+different deep learning backbones based on hardware limitations, speed
+requirements, and accuracy goals.
 
----
+### Highlights:
 
-### 🔷 U-Net for Medical Image Segmentation
+-   Built an unsupervised anomaly detection pipeline
+-   Implemented ResNet18, ResNet34, ResNet50, ResNet101, and ResNet152
+    backbones
+-   Developed backbone recommendation based on VRAM, latency, and
+    accuracy requirements
+-   Created workflows for single model evaluation and multi-backbone
+    comparison
+-   Built Gradio demo for anomaly visualization and heatmap generation
 
-Developed a custom implementation of the **U-Net architecture** to perform precise **semantic segmentation** of gastrointestinal polyps using the **Kvasir-SEG** dataset.
+**Tech Stack:**\
+PyTorch · ResNet · Computer Vision · Anomaly Detection · MVTec AD · Deep
+Learning · Gradio · Python
 
-**Key Highlights:**
-- Designed a deep learning model to segment medical images with high sensitivity and precision.
-- Applied data augmentation to enhance the robustness of the training pipeline.
-- Used a combined **BCEWithLogitsLoss + Dice Loss** function to optimize performance on imbalanced datasets.
-- Achieved a **Dice Score of ~0.83** and **IoU of ~0.74**.
-- Visualized results with **OpenCV** and **Matplotlib** for model validation and presentation.
+------------------------------------------------------------------------
 
-**Skills:** PyTorch · Fine Tuning · Python · Hyperparameter Tuning · Image Processing · Deep Learning · Git
+# 🤖 BajiMart Customer Support Agent
 
-📎 [GitHub Repo](https://github.com/GaurangTari4/KvasirSeg-Unet)
+AI-powered customer support automation system using LLMs and intelligent
+workflows.
 
----
+BajiMart demonstrates how AI agents can automate customer service
+workflows by combining language models, business rules, CRM systems, and
+decision-making pipelines.
 
-### 🔷 NeRF-Based Camera Pose Estimation
+### Highlights:
 
-Implemented advanced **Neural Radiance Fields (NeRF)** techniques for accurate camera pose estimation, improving performance in **3D scene reconstruction** and **AR/robotics applications**.
+-   Built mock CRM system with customer profiles and orders
+-   Developed policy-based refund decision engine
+-   Integrated CrewAI, Ollama-compatible models, and OpenAI models
+-   Built live dashboard showing agent actions and decisions
+-   Added voice interaction capabilities
 
-**Key Highlights:**
-- Enhanced the Tiny NeRF framework using **PyTorch**, **TensorFlow**, and **CUDA** for better real-world scalability.
-- Refined camera calibration processes with **OpenCV** to ensure high precision.
-- Integrated CNNs to improve scene understanding and model convergence.
-- Delivered enhanced novel view synthesis from minimal image input.
+Workflow:
 
-**Skills:** PyTorch · TensorFlow · CUDA · Python · OpenCV · Keras · Camera Calibration · CNNs · 3D Vision
+Customer Request → CRM Verification → Policy Validation → AI Decision →
+Case Logging
 
----
+**Tech Stack:**\
+Python · LLMs · CrewAI · AI Agents · OpenAI API · Ollama · Automation
 
-### 🔷 6DOF Robotic Arm
+------------------------------------------------------------------------
 
-Designed and built a **six degrees of freedom (6DoF) robotic arm** for automation and manipulation tasks in industrial and hazardous settings.
+# 🚀 PoseNeRF --- Neural Radiance Field Based Camera Pose Estimation
 
-**Key Highlights:**
-- Constructed using **Arduino Uno** and controlled via **Bluetooth wireless communication**.
-- Programmed using **C/C++** for responsive and precise pick-and-place operations.
-- Incorporated feedback mechanisms for better positional accuracy.
-- Emphasized versatility for deployment in healthcare, manufacturing, and field robotics.
+Research-focused project exploring 3D scene understanding and camera
+pose estimation.
 
-**Skills:** Arduino · C++ · Real-time Systems · Wireless Communication · Robotics · Automation
+PoseNeRF is an end-to-end implementation of a hierarchical Neural
+Radiance Field framework that jointly learns scene representation and
+camera poses.
 
----
+### Highlights:
 
-## 🧠 Skills & Technologies
+-   Developed hierarchical coarse-to-fine NeRF pipeline
+-   Implemented scene representation learning and camera pose estimation
+-   Built modular training, evaluation, and refinement workflows
+-   Converted experiments into reproducible scripts
 
-- **Languages:** Python, MATLAB, C++, C#, Prolog  
-- **ML/DL Tools:** PyTorch, TensorFlow, Keras, Scikit-learn  
-- **CV/AI:** 3D Reconstruction, Semantic Segmentation, Pose Estimation, Neural Radiance Fields (NeRF)  
-- **Robotics:** Arduino, ROS/ROS2, Embedded Systems, Circuit Design  
-- **Other:** Git, SQL, CUDA, OpenCV, Streamlit
+### Results:
 
----
+-   Average PSNR: 17.69 dB
+-   Depth MAE: 0.336 m
 
-## 📜 Certifications
+**Tech Stack:**\
+PyTorch · NeRF · 3D Vision · Pose Estimation · Optimization
 
-- TensorFlow Developer Certificate – DeepLearning.AI  
-- NLP with TensorFlow – Coursera  
-- CNNs in TensorFlow – Coursera  
-- Sequences and Time Series – Coursera  
-- Intro to Java – Coursera
+------------------------------------------------------------------------
 
-[🔗 View Certificates](https://coursera.org/share/ab30e5aa01a7f81a068d1b9d280bce62)
+# 🚑 Kvasir-SEG U-Net --- Medical Image Segmentation
 
----
+Deep learning model for gastrointestinal polyp segmentation using
+medical images.
 
-## 🎓 Education
+### Highlights:
 
-**University of Surrey** – Guildford, UK  
-*Master of Science in Computer Vision, Robotics, and Machine Learning*  
-_Completed: Sept 2024_
+-   Built custom U-Net architecture
+-   Developed training, evaluation, and visualization pipeline
+-   Used BCE Loss + Dice Loss
+-   Evaluated using Dice Score and IoU
 
-**University of Mumbai – Lokmanya Tilak College** – Navi Mumbai, India  
-*Bachelor's in Electronics Engineering*  
-_Completed: Nov 2021_
+**Tech Stack:**\
+PyTorch · Medical Imaging · Semantic Segmentation · OpenCV ·
+Albumentations
 
----
+GitHub: https://github.com/GaurangTari4/KvasirSeg-Unet
 
-## 📬 Contact Me
+------------------------------------------------------------------------
 
-- 📧 gaurang.tari04@gmail.com  
-- 💼 [LinkedIn](https://www.linkedin.com/in/gaurang-tari)  
-- 💻 [GitHub](https://github.com/GaurangTari4)  
+# 🧠 Technical Skills
 
----
+## Languages
 
-_“Technology is best when it brings people together.” — Matt Mullenweg_
+Python · C++ · C# · MATLAB · SQL
+
+## Machine Learning
+
+PyTorch · TensorFlow · Keras · Scikit-learn
+
+## Computer Vision
+
+NeRF · 3D Reconstruction · Segmentation · Pose Estimation · Anomaly
+Detection · OpenCV
+
+## Generative AI / AI Systems
+
+LLMs · AI Agents · CrewAI · Prompt Engineering · AI Automation
+
+## Robotics
+
+ROS/ROS2 · Arduino · Embedded Systems
+
+## Tools
+
+Git · CUDA · Linux · Streamlit · Gradio
+
+------------------------------------------------------------------------
+
+# 🎓 Education
+
+## University of Surrey
+
+MSc Computer Vision, Robotics and Machine Learning
+
+------------------------------------------------------------------------
+
+## University of Mumbai --- Lokmanya Tilak College
+
+Bachelor's Degree in Electronics Engineering
+
+------------------------------------------------------------------------
+
+# 📬 Connect With Me
+
+📧 gaurang.tari04@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/gaurang-tari
+
+💻 GitHub: https://github.com/GaurangTari4
+
+------------------------------------------------------------------------
+
+⭐ Always interested in building impactful AI systems and collaborating
+on challenging problems.
